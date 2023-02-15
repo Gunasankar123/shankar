@@ -1,0 +1,16 @@
+Begin
+
+step 1:consider inputs A,B,C as the coefficients of quadratic equation
+step 2:discriminant b*b-4ac
+step 3:if(discriminant>0)
+step 4:root1=(-b + sqrt(discriminant))/(2*a);
+step 5:root2=(-b - sqrt(discriminant))/(2*a);
+step 6:display("root1 and root2)
+step 7:elif(discriminant ==0)
+step 8:root1=root2 = -b/(2*a);
+step 9:display(root1 and root2)
+step 10:realpart =-b/(2*a);
+step 11:imagpart=sqrt(-discriminant)/(2*a);
+step 12:display(realpart,imagpart)
+
+stop
